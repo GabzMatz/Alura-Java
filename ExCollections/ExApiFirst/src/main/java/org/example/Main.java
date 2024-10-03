@@ -14,7 +14,6 @@ public class Main {
 
         String teste = pesquisador.pesquisarCep(cep);
 
-        System.out.println(teste);
         pesquisador.criarAquivoJson(teste);
     }
 }
